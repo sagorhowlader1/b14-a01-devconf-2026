@@ -112,8 +112,8 @@ ul li a{
     border-radius:  12px 12px 0 0;
 }
 
-.meet-text h3, h1, p{
-    margin: 0 30px;
+.meet-cart .meet-text h3, h1, p{
+    /* margin: 0 30px; */
 }
 
 .meet-text h3{
@@ -137,6 +137,123 @@ ul li a{
 
 
 /* secure section code start here */
-.meet-title{
+.secure-content .secure-title h1{
+    color: #0D1B2A;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: center;
+}
+.secure-content .secure-title p{
+    color: #575757;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.secure-items{
+    /* margin: 30px 30px; */
+}
+
+.secure-items .secure-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 30px;
+}
+
+.secure-text{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    padding: 30px 30px;
+}
+
+.secure-text-second{
+    background-color: #0D1B2A;
+}
+
+.secure-text-second h3{
+    color: #93C5FD;
+}
+.secure-text-second h2{
+    color: #FFFFFF;
+}
+
+.paragraph-text-second{
+    color: #ffffff80;
     
+}
+.secure-text-third{
+    background-color: #F8F9FB;
+    
+}
+
+.secure-text h3{
+    font-size: 14px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+.secure-text h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.secure-text h4{
+    padding-bottom: 18px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.secure-text .paragraph-text p{
+    font-size: 16px;
+    gap: 8px;
+    color: #333333;
+}
+
+.line{
+    color: #E5E7EB;
+}
+
+span{
+    margin-right: 5px;
+    color: #2563EB;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.secure-text .secure-btn{
+    cursor: pointer;
+    padding: 10px 100px;
+    margin: 10px 0;
+}
+
+
+
+.secure-btn-first{
+    font-size: 14px;
+    padding: 0 12px;
+    color: #2563EB;
+    border-radius: 10px;
+    border: 1px solid #2563EB;
+    background-color: #e5e7eb09;
+}
+
+.secure-btn-second{
+    font-size: 14px;
+    padding: 0 12px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #0D1B2A;
+    background-color: #2563EB;
+}
+.secure-btn-thrid{
+    font-size: 14px;
+    padding: 0 12px;
+    color: #0D1B2A;
+    border-radius: 10px;
+    border: 1px solid #0D1B2A;
+    background-color: #e5e7eb09;
 }
