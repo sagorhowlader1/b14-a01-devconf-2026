@@ -10,8 +10,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 250px;
-    border: 2px solid red;
+    margin: 5px 250px;
 }
 
 nav img{
@@ -63,7 +62,7 @@ ul li a{
 }
 
 .hero-content .btn{
-     margin: 30px 0;
+    margin: 30px 0;
 }
 
 .hero-content h1 p{
@@ -85,7 +84,7 @@ ul li a{
 /* meet section code start here */
 
 .meet-container{
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 .meet-title h1{
@@ -112,8 +111,11 @@ ul li a{
     border-radius:  12px 12px 0 0;
 }
 
-.meet-cart .meet-text h3, h1, p{
-    /* margin: 0 30px; */
+.meet-cart ,
+.meet-first-title,
+.meet-second-title,
+.meet-para-p{
+    margin: 0 30px;
 }
 
 .meet-text h3{
@@ -161,7 +163,7 @@ ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
     margin: 0 30px;
 }
 
@@ -213,8 +215,9 @@ ul li a{
     color: #333333;
 }
 
-.line{
+.secure-text .line{
     color: #E5E7EB;
+    font-size: 40px;
 }
 
 span{
@@ -256,4 +259,55 @@ span{
     border-radius: 10px;
     border: 1px solid #0D1B2A;
     background-color: #e5e7eb09;
+}
+
+/* footer section code start here */
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding-top: 50px;
+}
+
+.footer-top img{
+    cursor: pointer;
+}
+
+.footer-content{
+    height: 20vh;
+    color: #F8F9FB;
+    background-color: #0D1B2A;
+}
+
+.footer-icons .fa-brands{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 0 12px;
+}
+
+.footer-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 350px;
+}
+
+.footer-buttom p{
+    color: #ffffff40;
+    font-size: 16px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.footer-text p{
+    color: #ffffff40;
+    font-size: 16px;
+    margin: 0 20px;
 }
